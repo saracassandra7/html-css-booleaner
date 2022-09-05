@@ -1,3 +1,4 @@
+/* generali */
 * {
   margin: 0;
 }
@@ -6,6 +7,11 @@ main{
   margin: 10px;
 }
 
+footer{
+  margin-left: 10px;
+}
+
+/*header*/
 .intestazione {
   width: 100%;
   height: 170px;
@@ -20,6 +26,7 @@ header img{
   margin-left: 10px;
 }
 
+/* titolo e crediti */
 .crediti{
   color: gray;
 }
@@ -28,14 +35,16 @@ header img{
   color: rgb(45, 174, 230)
 }
 
-.crediti-foto{
-  font-size: 12px;
-}
-
+/* galleria fotografica */
 .galleria-foto{
   margin-top: 20px;
 }
 
+.crediti-foto{
+  font-size: 12px;
+}
+
+/* paragrafo e lista */
 .paragrafo{
   margin-top: 20px;
   margin-bottom: 20px;
@@ -45,6 +54,7 @@ header img{
   background-color: yellow;
 }
 
+/* tabella */
 table{
   margin-top: 20px;
   text-align: left;
@@ -61,8 +71,38 @@ td{
   padding: 10px 10px 10px 0px
 }
 
-
 .riga-colorata{
   background-color: rgb(177, 229, 242);
+}
+
+
+/* footer*/
+h4{
+  color: grey;
+  margin-bottom: 10px;
+}
+
+/* containers nel footer */
+.box{
+  width: 170px;
+  height: 150px;
+  margin-bottom: 5px;
+  background-size: cover;
+  background-position: center;
+}
+
+.testo-box{
+  color: white;
+  font-size: 17px;
+  padding-top: 10px;
+  padding-left: 6px;
+}
+
+.sfondo-monitor{
+  background-image: url(../img/monitor.jpg);
+}
+
+.sfondo-grafico{
+  background-image: url(../img/graph.jpg);
 }
 
