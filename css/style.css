@@ -2,7 +2,11 @@
   margin: 0;
 }
 
-.header {
+main{
+  margin: 10px;
+}
+
+.intestazione {
   width: 100%;
   height: 170px;
   background-image: url('../img/pattern.png');
@@ -13,5 +17,23 @@ header img{
   height: 100px;
   width: 300px; 
   margin-top: 65px;
+  margin-left: 10px;
 }
+
+.crediti{
+  color: gray;
+}
+
+#span-crediti{
+  color: rgb(45, 174, 230)
+}
+
+.crediti-foto{
+  font-size: 12px;
+}
+
+.galleria-foto{
+  margin-top: 20px;
+}
+
 
